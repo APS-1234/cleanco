@@ -2,7 +2,7 @@
   "name": "cleanco-energy",
   "version": "1.0.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://aps-1234.github.io/cleanco",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
