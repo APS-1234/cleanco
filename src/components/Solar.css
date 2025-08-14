@@ -1,0 +1,226 @@
+/* Solar Section Styles */
+.solar-section {
+	background: #ffffff;
+	padding: 120px 0;
+	color: #1a202c;
+	overflow: hidden;
+}
+
+.solar-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.solar-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2.5rem;
+}
+
+.solar-card {
+	background: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	will-change: transform, opacity;
+	box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e5e7eb;
+	overflow: hidden;
+	position: relative;
+}
+
+.solar-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+	border-color: #d1d5db;
+}
+
+.solar-card:active {
+	transform: translateY(-4px) scale(0.98);
+	transition: all 0.1s ease;
+}
+
+.solar-card:focus {
+	outline: 2px solid #10b981;
+	outline-offset: 2px;
+}
+
+.solar-image-wrap {
+	border-radius: 16px 16px 0 0;
+	overflow: hidden;
+	margin-bottom: 0;
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+}
+
+.solar-card:hover .solar-image-wrap {
+	transform: scale(1.02);
+}
+
+.solar-image {
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.solar-card:hover .solar-image {
+	transform: scale(1.05);
+}
+
+.solar-title {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin: 2rem 2rem 1.5rem;
+	transition: all 0.3s ease;
+	position: relative;
+	color: #1a202c;
+}
+
+.solar-card:hover .solar-title {
+	color: #10b981;
+	transform: scale(1.02);
+}
+
+.solar-title::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: linear-gradient(90deg, #10b981, #059669);
+	transition: all 0.4s ease;
+	transform: translateX(-50%);
+	border-radius: 1px;
+}
+
+.solar-card:hover .solar-title::after {
+	width: 40px;
+}
+
+.solar-desc {
+	color: #6b7280;
+	font-size: 1.1rem;
+	line-height: 1.7;
+	transition: all 0.3s ease;
+	margin: 0 2rem 2rem;
+}
+
+.solar-card:hover .solar-desc {
+	color: #4b5563;
+	transform: translateY(-1px);
+}
+
+/* Add a subtle glow effect on hover */
+.solar-card::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(5, 150, 105, 0.05));
+	border-radius: 16px;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+	pointer-events: none;
+}
+
+.solar-card:hover::before {
+	opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+	.solar-section {
+		padding: 100px 0;
+	}
+	
+	.solar-grid { 
+		grid-template-columns: repeat(2, 1fr); 
+		gap: 2.5rem;
+	}
+	
+	.solar-image { 
+		height: 280px; 
+	}
+	
+	.solar-title {
+		font-size: 1.6rem;
+		margin: 1.8rem 1.8rem 1.3rem;
+	}
+	
+	.solar-desc {
+		font-size: 1rem;
+		margin: 0 1.8rem 1.8rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.solar-section {
+		padding: 80px 0;
+	}
+	
+	.solar-grid { 
+		grid-template-columns: 1fr; 
+		gap: 2.5rem;
+	}
+	
+	.solar-image { 
+		height: 260px; 
+	}
+	
+	.solar-title {
+		font-size: 1.5rem;
+		margin: 1.6rem 1.6rem 1.2rem;
+	}
+	
+	.solar-desc {
+		font-size: 1rem;
+		margin: 0 1.6rem 1.6rem;
+	}
+	
+	.solar-card:hover {
+		transform: translateY(-6px);
+	}
+	
+	.solar-card:hover .solar-image-wrap {
+		transform: scale(1.01);
+	}
+}
+
+@media (max-width: 480px) {
+	.solar-section {
+		padding: 60px 0;
+	}
+	
+	.solar-container {
+		padding: 0 1rem;
+	}
+	
+	.solar-grid {
+		gap: 2rem;
+	}
+	
+	.solar-image { 
+		height: 240px; 
+	}
+	
+	.solar-title {
+		font-size: 1.3rem;
+		margin: 1.4rem 1.4rem 1rem;
+	}
+	
+	.solar-desc {
+		font-size: 0.95rem;
+		margin: 0 1.4rem 1.4rem;
+	}
+	
+	.solar-card:hover {
+		transform: translateY(-4px);
+	}
+}

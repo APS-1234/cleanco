@@ -1,0 +1,140 @@
+/* About Us Page Styles - Advanced Design */
+.about-us-hero-section {
+	background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+	padding: 120px 0 80px;
+	color: #1a202c;
+	overflow: hidden;
+	position: relative;
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+/* Advanced Background Pattern */
+.about-us-hero-section::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image:
+		radial-gradient(circle at 20% 80%, rgba(16, 185, 129, 0.03) 0%, transparent 50%),
+		radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.03) 0%, transparent 50%);
+	pointer-events: none;
+}
+
+.about-us-hero-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	position: relative;
+	z-index: 1;
+}
+
+.about-us-hero-content {
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.about-us-hero-title {
+	font-size: clamp(3rem, 5vw, 4rem);
+	font-weight: 800;
+	color: #1a202c;
+	line-height: 1.1;
+	margin: 0 0 2rem 0;
+	background: linear-gradient(135deg, #1a202c 0%, #374151 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.highlight-text {
+	background: linear-gradient(135deg, #10b981, #059669);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	position: relative;
+}
+
+.highlight-text::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(90deg, #10b981, #059669);
+	border-radius: 2px;
+}
+
+.about-us-hero-description {
+	font-size: 1.3rem;
+	line-height: 1.8;
+	color: #4b5563;
+	margin: 0;
+	font-weight: 400;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	.about-us-hero-section {
+		padding: 100px 0 60px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about-us-hero-section {
+		padding: 80px 0 40px;
+	}
+
+	.about-us-hero-container {
+		padding: 0 1.5rem;
+	}
+
+	.about-us-hero-title {
+		font-size: clamp(2.5rem, 6vw, 3.5rem);
+	}
+
+	.about-us-hero-description {
+		font-size: 1.1rem;
+		line-height: 1.7;
+	}
+}
+
+@media (max-width: 480px) {
+	.about-us-hero-section {
+		padding: 60px 0 30px;
+	}
+
+	.about-us-hero-container {
+		padding: 0 1rem;
+	}
+
+	.about-us-hero-title {
+		font-size: clamp(2rem, 7vw, 3rem);
+	}
+
+	.about-us-hero-description {
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+}
+
+/* High DPI Display Support */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.about-us-hero-section {
+		image-rendering: -webkit-optimize-contrast;
+		image-rendering: crisp-edges;
+	}
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+	.about-us-hero-section {
+		transition: none;
+	}
+}
