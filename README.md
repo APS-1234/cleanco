@@ -207,4 +207,4 @@ For support and questions:
 
 ---
 
-**CLEANCO Energy** - Powering Sustainability with Solar Solutions
+**CLEANCO Energy** - Powering Sustainability with Solar Solutions 🚀

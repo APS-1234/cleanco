@@ -7,25 +7,25 @@ const solutions = [
 		title: 'Solar Power Systems',
 		description:
 			"Harnessing the sun's energy, our solar solutions provide clean electricity for diverse applications, reducing costs and supporting sustainability.",
-		image: '/images/cleanco_2.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_2.png`
 	},
 	{
 		title: 'BESS Solutions',
 		description:
 			'Our BESS solutions store renewable energy, ensuring availability during peak demand, optimizing energy use, and enhancing grid stability.',
-		image: '/images/cleanco_3.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_3.png`
 	},
 	{
 		title: 'CBG Solutions',
 		description:
 			'Converting organic waste into renewable biogas, our CBG solutions reduce pollution, support rural development, and contribute to energy diversification.',
-		image: '/images/cleanco_4.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_4.png`
 	},
 	{
 		title: 'Custom Solar Projects',
 		description:
 			'We design, install, and maintain customized solar projects tailored to client needs, providing reliable and sustainable energy solutions.',
-		image: '/images/cleanco_5.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_5.png`
 	}
 ];
 

@@ -132,7 +132,7 @@ const CBGAdvancedTechnology = () => {
 						variants={imageVariants}
 					>
 						<div className="cbg-advanced-technology-image">
-							<img src="/images/ad_cbg.jpg" alt="Cleanco Advanced CBG Technology Facility" />
+							        <img src={`${process.env.PUBLIC_URL}/images/ad_cbg.jpg`} alt="Cleanco Advanced CBG Technology Facility" />
 							<div className="image-overlay"></div>
 							<div className="image-badge">
 								<CheckCircle size={24} />

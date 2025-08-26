@@ -57,7 +57,7 @@ const FeaturedSolarProjects = () => {
 					variants={imageVariants}
 				>
 					<img
-						src="/images/cleanco_5.png"
+						        src={`${process.env.PUBLIC_URL}/images/cleanco_5.png`}
 						alt="Team installing solar panels on a rooftop"
 						className="featured-projects-image"
 					/>

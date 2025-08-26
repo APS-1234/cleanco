@@ -105,7 +105,7 @@ const GreenStorageBESS = () => {
 					viewport={{ once: true, amount: 0.3 }}
 				>
 					<img
-						src="/images/cleanco_7.png"
+						        src={`${process.env.PUBLIC_URL}/images/cleanco_7.png`}
 						alt="GreenStorage BESS Facility - Solar panels and green fields"
 						className="greenstorage-banner-image"
 					/>

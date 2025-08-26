@@ -56,25 +56,25 @@ const CBG = () => {
 			title: 'Waste to Energy',
 			description: 'Convert agricultural waste, organic matter, and municipal waste into clean, renewable biogas through our advanced CBG technology.',
 			icon: <Leaf size={24} />,
-			image: '/images/Biogasification.jpg'
+			    image: `${process.env.PUBLIC_URL}/images/Biogasification.jpg`
 		},
 		{
 			title: 'Carbon Footprint Reduction',
 			description: 'Significantly reduce your carbon footprint by replacing fossil fuels with clean biogas, contributing to a sustainable future.',
 			icon: <Zap size={24} />,
-			image: '/images/carbon_foot_print.jpg'
+			    image: `${process.env.PUBLIC_URL}/images/carbon_foot_print.jpg`
 		},
 		{
 			title: 'Cost-Effective Energy',
 			description: 'Generate cost-effective energy while managing waste efficiently, creating a circular economy that benefits both environment and economy.',
 			icon: <TrendingUp size={24} />,
-			image: '/images/cost_efficient_energy.jpg'
+			    image: `${process.env.PUBLIC_URL}/images/cost_efficient_energy.jpg`
 		},
 		{
 			title: 'Grid Integration',
 			description: 'Seamlessly integrate CBG into existing energy infrastructure, providing reliable and consistent power supply to communities.',
 			icon: <ArrowRight size={24} />,
-			image: '/images/CBG_integration.jpg'
+			    image: `${process.env.PUBLIC_URL}/images/CBG_integration.jpg`
 		}
 	];
 
@@ -130,7 +130,7 @@ const CBG = () => {
 							variants={imageVariants}
 						>
 							<div className="cbg-hero-image">
-								<img src="/images/CBG_NEW.png" alt="Cleanco Biogas Plant" />
+								        <img src={`${process.env.PUBLIC_URL}/images/CBG_NEW.png`} alt="Cleanco Biogas Plant" />
 								<div className="image-overlay"></div>
 							</div>
 						</motion.div>

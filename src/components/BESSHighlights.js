@@ -78,7 +78,7 @@ const BESSHighlights = () => {
 						viewport={{ once: true, amount: 0.4 }}
 					>
 						<img
-							src="/images/cleanco_12.png"
+							        src={`${process.env.PUBLIC_URL}/images/cleanco_12.png`}
 							alt="Cleanco BESS Facility - Industrial battery energy storage systems under blue sky"
 							className="bess-highlights-image"
 						/>

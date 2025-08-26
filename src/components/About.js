@@ -96,7 +96,7 @@ const About = () => {
           <div className="about-image">
             <div className="image-container">
               <img 
-                src="/images/cleanco_6.png" 
+                src={`${process.env.PUBLIC_URL}/images/cleanco_6.png`} 
                 alt="Futuristic cityscape with renewable energy integration" 
                 className="vision-image"
               />

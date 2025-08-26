@@ -46,7 +46,7 @@ const PartnershipsSection = () => {
 				"National Solar Mission",
 				"Smart Cities Mission"
 			],
-			image: "/images/cleanco_2.png"
+			    image: `${process.env.PUBLIC_URL}/images/cleanco_2.png`
 		},
 		{
 			title: "Technology Partners",
@@ -58,7 +58,7 @@ const PartnershipsSection = () => {
 				"Schneider Electric",
 				"GE Renewable Energy"
 			],
-			image: "/images/cleanco_3.png"
+			    image: `${process.env.PUBLIC_URL}/images/cleanco_3.png`
 		},
 		{
 			title: "Financial Institutions",
@@ -70,7 +70,7 @@ const PartnershipsSection = () => {
 				"Indian Renewable Energy Development Agency",
 				"International Finance Corporation"
 			],
-			image: "/images/cleanco_4.png"
+			    image: `${process.env.PUBLIC_URL}/images/cleanco_4.png`
 		}
 	];
 
@@ -79,19 +79,19 @@ const PartnershipsSection = () => {
 			name: "Siemens Energy",
 			type: "Technology Partner",
 			description: "Collaborating on advanced grid integration and energy management solutions.",
-			logo: "/images/cleanco_1.png"
+			    logo: `${process.env.PUBLIC_URL}/images/cleanco_1.png`
 		},
 		{
 			name: "MNRE",
 			type: "Government Partner",
 			description: "Working together to achieve India's renewable energy targets and sustainable development goals.",
-			logo: "/images/cleanco_5.png"
+			    logo: `${process.env.PUBLIC_URL}/images/cleanco_5.png`
 		},
 		{
 			name: "State Bank of India",
 			type: "Financial Partner",
 			description: "Providing innovative financing solutions for large-scale renewable energy projects.",
-			logo: "/images/cleanco_6.png"
+			    logo: `${process.env.PUBLIC_URL}/images/cleanco_6.png`
 		}
 	];
 

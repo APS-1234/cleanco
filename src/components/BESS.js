@@ -10,25 +10,25 @@ const bessSolutions = [
 		title: 'Grid Stabilization',
 		description:
 			'Our BESS solutions provide rapid response to grid fluctuations, ensuring a stable and reliable power supply for homes and businesses.',
-		image: '/images/cleanco_8.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_8.png`
 	},
 	{
 		title: 'Renewable Integration',
 		description:
 			"Cleanco's BESS enables efficient storage of solar and wind energy, maximizing the use of renewable resources and reducing reliance on fossil fuels.",
-		image: '/images/cleanco_9.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_9.png`
 	},
 	{
 		title: 'Peak Shaving',
 		description:
 			'By storing energy during off-peak hours and releasing it during peak demand, our BESS solutions reduce energy costs for consumers and businesses.',
-		image: '/images/cleanco_10.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_10.png`
 	},
 	{
 		title: 'Energy Independence',
 		description:
 			"Cleanco's BESS empowers communities and businesses to generate and store their own energy, reducing dependence on centralized power grids and enhancing energy security.",
-		image: '/images/cleanco_11.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_11.png`
 	}
 ];
 

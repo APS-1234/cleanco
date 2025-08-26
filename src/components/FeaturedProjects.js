@@ -7,22 +7,22 @@ const FeaturedProjects = () => {
     {
       title: "Sundar Solar Park",
       description: "A 100 MW solar power plant supplying clean energy to the local grid, showcasing Cleanco's large-scale solar expertise.",
-      image: "/images/cleanco_7.png"
+      image: `${process.env.PUBLIC_URL}/images/cleanco_7.png`
     },
     {
       title: "EcoBiogas Plant",
       description: "A rural biogas plant converting agricultural waste into renewable energy, supporting local communities.",
-      image: "/images/cleanco_2.png"
+      image: `${process.env.PUBLIC_URL}/images/cleanco_2.png`
     },
     {
       title: "GreenStorage BESS Facility",
       description: "A 50 MWh battery storage system that enhances grid stability and renewable integration for Indira Industrial Park.",
-      image: "/images/cleanco_3.png"
+      image: `${process.env.PUBLIC_URL}/images/cleanco_3.png`
     },
     {
       title: "Projects",
       description: "Powering India",
-      image: "/images/cleanco_4.png"
+      image: `${process.env.PUBLIC_URL}/images/cleanco_4.png`
     }
   ];
 

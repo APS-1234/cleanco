@@ -1,0 +1,4 @@
+[33m89865fd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Update homepage URL for GitHub Pages deployment
+[33mf45857d[m Add GitHub Actions workflow for automatic deployment
+[33m99ccf57[m Update dependencies and prepare for deployment
+[33me038516[m Initial commit: Add Vercel deployment configuration and fix build issues

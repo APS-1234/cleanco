@@ -28,19 +28,19 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: "Email",
-      value: "info@aboveturkey.com",
-      link: "mailto:info@aboveturkey.com"
+      value: "info@cleanco.com",
+      link: "mailto:info@cleanco.com"
     },
     {
       icon: <Phone size={24} />,
       title: "Phone",
-      value: "+90 212 555 0123",
-      link: "tel:+902125550123"
+      value: "+91 9154772572",
+      link: "tel:+91 9154772572"
     },
     {
       icon: <MapPin size={24} />,
       title: "Address",
-      value: "Istanbul, Turkey",
+      value: "Hyderabad, Telangana",
       link: null
     }
   ];

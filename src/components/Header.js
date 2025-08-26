@@ -30,7 +30,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <Link to="/">
-            <img src="/images/sologo-aitools-bgremover.png" alt="CLEANCO Logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/Cleanco_logo_f.png`} alt="CLEANCO Logo" />
           </Link>
         </div>
         <nav className="nav-links">

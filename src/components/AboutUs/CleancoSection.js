@@ -137,7 +137,7 @@ const CleancoSection = () => {
 					{/* Right Content - Image and Stats */}
 					<motion.div className="cleanco-visual" variants={imageVariants}>
 						<div className="company-image">
-							<img src="/images/cleanco_1.png" alt="Cleanco Group Headquarters" />
+							        <img src={`${process.env.PUBLIC_URL}/images/cleanco_1.png`} alt="Cleanco Group Headquarters" />
 							<div className="image-overlay"></div>
 						</div>
 

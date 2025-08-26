@@ -103,7 +103,7 @@ const JourneyVision = () => {
           <div className="journey-image">
             <div className="image-container">
               <img 
-                src="/images/cleanco_1.png"
+                src={`${process.env.PUBLIC_URL}/images/cleanco_1.png`}
                 alt="Solar power installation with BESS units in natural landscape" 
                 className="solar-installation"
               />

@@ -10,25 +10,25 @@ const solarSolutions = [
 		title: 'Large-Scale Solar Farms',
 		description:
 			"Cleanco excels in developing and managing large-scale solar farms, contributing significantly to India's renewable energy capacity and sustainable energy goals.",
-		image: '/images/cleanco_1.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_1.png`
 	},
 	{
 		title: 'Commercial Rooftop Installations',
 		description:
 			'We provide customized rooftop solar solutions for businesses, reducing their carbon footprint and energy costs while promoting sustainable practices in urban environments.',
-		image: '/images/cleanco_2.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_2.png`
 	},
 	{
 		title: 'Rural Electrification Projects',
 		description:
 			'Cleanco is dedicated to bringing clean, reliable solar power to rural communities, improving quality of life and fostering economic development in underserved areas.',
-		image: '/images/cleanco_3.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_3.png`
 	},
 	{
 		title: 'Solar + BESS Integration',
 		description:
 			'Our integrated solar and BESS solutions ensure a stable and continuous power supply, maximizing the benefits of renewable energy and enhancing grid resilience.',
-		image: '/images/cleanco_4.png'
+		    image: `${process.env.PUBLIC_URL}/images/cleanco_4.png`
 	}
 ];
 

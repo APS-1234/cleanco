@@ -105,7 +105,7 @@ const SundarSolarPark = () => {
 					viewport={{ once: true, amount: 0.3 }}
 				>
 					<img
-						src="/images/cleanco_6.png"
+						        src={`${process.env.PUBLIC_URL}/images/cleanco_6.png`}
 						alt="Sundar Solar Park - Large-scale solar farm with thousands of solar panels"
 						className="sundar-image"
 					/>

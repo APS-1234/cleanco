@@ -42,7 +42,7 @@ const ProjectsSection = () => {
 			capacity: "500 MW",
 			completion: "2023",
 			description: "One of India's largest solar parks, generating clean energy for over 200,000 households.",
-			image: "/images/cleanco_5.png",
+			    image: `${process.env.PUBLIC_URL}/images/cleanco_5.png`,
 			stats: {
 				area: "2,500 acres",
 				households: "200,000+",
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
 			capacity: "100 MWh",
 			completion: "2023",
 			description: "Advanced battery energy storage system providing grid stability and renewable integration.",
-			image: "/images/cleanco_12.png",
+			    image: `${process.env.PUBLIC_URL}/images/cleanco_12.png`,
 			stats: {
 				power: "50 MW",
 				duration: "2 hours",
@@ -68,7 +68,7 @@ const ProjectsSection = () => {
 			capacity: "25,000 Nm³/day",
 			completion: "2022",
 			description: "State-of-the-art CBG facility converting agricultural waste into clean biogas.",
-			image: "/images/CBG.jpg",
+			    image: `${process.env.PUBLIC_URL}/images/CBG.jpg`,
 			stats: {
 				waste: "100 tons/day",
 				biogas: "25,000 Nm³",
